@@ -1,0 +1,310 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<</Length 470>>
+stream
+0.57 w
+0 G
+BT
+/F1 20 Tf
+23 TL
+0 g
+42.52 785.20 Td
+(Security Injections @ Towson) Tj
+ET
+28.346 771.024 m 
+538.582 771.024 l
+S
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 742.68 Td
+(Module: Buffer Overflow - CS0 C++) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 714.33 Td
+(Student: Benjamin Wasserman) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 685.98 Td
+(Date: 09/13/2018) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 657.64 Td
+(ID: 1812986123) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<</Length 2144>>
+stream
+0.57 w
+0 G
+BT
+/F1 20 Tf
+23 TL
+0 g
+42.52 785.20 Td
+(Discussion Questions) Tj
+ET
+28.346 771.024 m 
+538.582 771.024 l
+S
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 728.50 Td
+(Describe the buffer overflow problem.) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 684.16 Td
+(The buffer overflow problem occurs when data is written beyond the bounds that were) Tj
+T* (allocated. This could cause overwriting, the program to crash, as well as other issues.) Tj
+ET
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 631.81 Td
+(How could you prevent a buffer overflow from occurring in your) Tj
+T* (program?) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 571.47 Td
+(We can prevent a buffer overflow from occurring by checking the bounds of all input,) Tj
+T* (and checking any data that can be input into statically allocated memory.) Tj
+ET
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 519.12 Td
+(Give three real life examples of buffer overflow attacks \(research on the) Tj
+T* (web\).) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 458.77 Td
+(The Morris Worm used buffer overflow as one of its exploits to propagate over the) Tj
+T* (internet. In 2001, the Code Red Worm used a buffer overflow in Microsoft's Internet) Tj
+T* (Information Services for an attack. Buffer overflows in Xbox games have also been) Tj
+T* (exploited so that users have been able use the software without buying it.) Tj
+ET
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 382.43 Td
+(What can result from a buffer overflow ?) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 338.08 Td
+(A buffer overflow can result in a program crashing, data being overwritten, attacks) Tj
+T* (from vulnerabilities, and other problems.) Tj
+ET
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 285.74 Td
+(Provide three different examples of code that contains buffer overflows.) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 241.39 Td
+(// Example 1) Tj
+T* (int test[10];) Tj
+T* (for \(int i = 0; i < 12; i++\) {) Tj
+T* (    test[i] = 7;) Tj
+T* (}) Tj
+T* () Tj
+T* (// Example 2) Tj
+T* (int elements;) Tj
+T* (cout << "Enter the number of elements" << endl;) Tj
+T* (cin >> elements;) Tj
+T* () Tj
+T* (// Example 3) Tj
+T* (int test[10];) Tj
+T* (test[-1] = 5;) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<</BaseFont/Helvetica/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+8 0 obj
+<</BaseFont/Helvetica-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+9 0 obj
+<</BaseFont/Helvetica-Oblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+10 0 obj
+<</BaseFont/Helvetica-BoldOblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+11 0 obj
+<</BaseFont/Courier/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+12 0 obj
+<</BaseFont/Courier-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+13 0 obj
+<</BaseFont/Courier-Oblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+14 0 obj
+<</BaseFont/Courier-BoldOblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+15 0 obj
+<</BaseFont/Times-Roman/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+16 0 obj
+<</BaseFont/Times-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+17 0 obj
+<</BaseFont/Times-Italic/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+18 0 obj
+<</BaseFont/Times-BoldItalic/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+19 0 obj
+<</BaseFont/ZapfDingbats/Type/Font
+/Encoding/StandardEncoding
+/Subtype/Type1>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+20 0 obj
+<<
+/Producer (jsPDF 1.3.2 2016-09-30T20:33:17.116Z:jameshall)
+/CreationDate (D:20180913112547-07'00')
+>>
+endobj
+21 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000002940 00000 n 
+0000004242 00000 n 
+0000000009 00000 n 
+0000000118 00000 n 
+0000000637 00000 n 
+0000000746 00000 n 
+0000003003 00000 n 
+0000003093 00000 n 
+0000003188 00000 n 
+0000003286 00000 n 
+0000003389 00000 n 
+0000003478 00000 n 
+0000003572 00000 n 
+0000003669 00000 n 
+0000003770 00000 n 
+0000003863 00000 n 
+0000003955 00000 n 
+0000004049 00000 n 
+0000004147 00000 n 
+0000004480 00000 n 
+0000004601 00000 n 
+trailer
+<<
+/Size 22
+/Root 21 0 R
+/Info 20 0 R
+>>
+startxref
+4705
+%%EOF

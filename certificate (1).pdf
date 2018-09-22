@@ -1,0 +1,283 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<</Length 465>>
+stream
+0.57 w
+0 G
+BT
+/F1 20 Tf
+23 TL
+0 g
+42.52 785.20 Td
+(Security Injections @ Towson) Tj
+ET
+28.346 771.024 m 
+538.582 771.024 l
+S
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 742.68 Td
+(Module: Buffer Overflow - CS2 C++) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 714.33 Td
+(Student: Ben Wasserman) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 685.98 Td
+(Date: 09/20/2018) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+56.69 657.64 Td
+(ID: 1541217942) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<</Length 2613>>
+stream
+0.57 w
+0 G
+BT
+/F1 20 Tf
+23 TL
+0 g
+42.52 785.20 Td
+(Discussion Questions) Tj
+ET
+28.346 771.024 m 
+538.582 771.024 l
+S
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 728.50 Td
+(Buffer overflows are more troublesome for some programming) Tj
+T* (languages than for others. For example, C and C++ lack the built-in) Tj
+T* (bounds checking facilities that Java provides. Some people have argued) Tj
+T* (that this is a good reason to avoid C and C++ in favor of Java or other) Tj
+T* ("safer" languages. Do you think this is a good idea? Why or why not?) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 620.16 Td
+(I don't necessarily think this is a good idea. C and C++ have lots of important) Tj
+T* (qualities, namely speed. Programmers should learn to deal with the problems of) Tj
+T* (bounds that could lead to buffer overflow. I also don't believe that just abstracting the) Tj
+T* (problem away from the developer is the best method of solving it. Developers simply) Tj
+T* (need to be more educated on the topic.) Tj
+ET
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 531.81 Td
+(Countless currently running programs were built using C and C++.) Tj
+T* (Buffer overflow vulnerabilities are often found in these programs, often) Tj
+T* (after they have been in use for many years. Why should it be so difficult) Tj
+T* (to find and fix buffer overflow flaws in software?) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 439.47 Td
+(It's so difficult to find and fix buffer overflow flaws in software because a lot of) Tj
+T* (developers and industry professionals aren't as well educated on the topic as they) Tj
+T* (should be. Additionally, there are a lot of legacy programs out there that aren't well) Tj
+T* (maintained. This means old errors, like buffer overflow, can easily stick around for a) Tj
+T* (long time without anyone noticing.) Tj
+ET
+BT
+/F1 16 Tf
+18.4 TL
+0 g
+42.52 351.12 Td
+(Buffer overflows can be troublesome if they are used by hackers to run) Tj
+T* (their own code. What sort of things might an attacker try to do if he or) Tj
+T* (she were able to run arbitrary code on a computer?) Tj
+ET
+BT
+/F1 12 Tf
+13.799999999999999 TL
+0 g
+99.21 274.78 Td
+(If an attacker was able to run arbitrary code on a computer from buffer overflow by) Tj
+T* (injecting the malicious code in the overflow bytes, there are a lot of things he or she) Tj
+T* (may be able to do. Of course, the primarily goal may be to get shell access or to be) Tj
+T* (able to run a command prompt. The attacker could inject malware to start to infiltrate) Tj
+T* (a network, try to gain access to sensitive information, or try to destroy the vulnerable) Tj
+T* (host.) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<</BaseFont/Helvetica/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+8 0 obj
+<</BaseFont/Helvetica-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+9 0 obj
+<</BaseFont/Helvetica-Oblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+10 0 obj
+<</BaseFont/Helvetica-BoldOblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+11 0 obj
+<</BaseFont/Courier/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+12 0 obj
+<</BaseFont/Courier-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+13 0 obj
+<</BaseFont/Courier-Oblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+14 0 obj
+<</BaseFont/Courier-BoldOblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+15 0 obj
+<</BaseFont/Times-Roman/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+16 0 obj
+<</BaseFont/Times-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+17 0 obj
+<</BaseFont/Times-Italic/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+18 0 obj
+<</BaseFont/Times-BoldItalic/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+19 0 obj
+<</BaseFont/ZapfDingbats/Type/Font
+/Encoding/StandardEncoding
+/Subtype/Type1>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+20 0 obj
+<<
+/Producer (jsPDF 1.3.2 2016-09-30T20:33:17.116Z:jameshall)
+/CreationDate (D:20180920082506-07'00')
+>>
+endobj
+21 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000003404 00000 n 
+0000004706 00000 n 
+0000000009 00000 n 
+0000000118 00000 n 
+0000000632 00000 n 
+0000000741 00000 n 
+0000003467 00000 n 
+0000003557 00000 n 
+0000003652 00000 n 
+0000003750 00000 n 
+0000003853 00000 n 
+0000003942 00000 n 
+0000004036 00000 n 
+0000004133 00000 n 
+0000004234 00000 n 
+0000004327 00000 n 
+0000004419 00000 n 
+0000004513 00000 n 
+0000004611 00000 n 
+0000004944 00000 n 
+0000005065 00000 n 
+trailer
+<<
+/Size 22
+/Root 21 0 R
+/Info 20 0 R
+>>
+startxref
+5169
+%%EOF

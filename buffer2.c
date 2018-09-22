@@ -5,6 +5,8 @@ string getString();
 void copyVals(string, char[]);
 void getSubstring(char[], char[]);
 void getChars(int, int, char[], char[]);
+size_t start;
+size_t end;
 
 int main()
 {
@@ -37,8 +39,8 @@ void copyVals(string s, char vals[])
 
 void getSubstring(char vals[], char newChars[])
 {
-  size_t start;
-  size_t end;
+  //size_t start;
+  //size_t end;
   cout <<  "Starting point (integer index): " << endl;
   cin >> start;
   cout << "Ending point (integer index): " << endl;
